@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	margin : 0;
+	border : 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.outerDiv {
+	margin: 15px;
+}
+
+.section-div {
+	width : 94%;
+	border: 1px solid black;
+	margin: 10px;
+	background-color: #AFEEEE;
+}
+
+.section-header {
+	position: relative;
+	font-size: 125%;
+	font-weight: 600;
+	width:35%;
+	border: 1px solid black;
+	float:right;
+	text-align: center;
+	top:-1px;
+	right:-1px;
+	padding: 5px;
+}
+
+#sd2 .section-header{
+	width:40%;	
+}
+
+.section-content {
+	padding: 40px 15px 20px 15px;
+}
+
+/*#sd2 .section-content {
+	padding: 40px 35px 0px 15px;
+}
+*/
+#sh1 {
+    background-color: #67605B;
+    color: #E5DBBE;
+}
+
+#sh2 {
+    background-color: burlywood;
+    color: darkslategray;
+}
+
+#sh3 {
+    background-color: lightcoral;
+    color: aliceblue;
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px ) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 992px) {  
+	.col-md-6 {
+	width: 50%;
+	float: left;
+	}
+	.col-md-12 {
+	width: 100%;
+	float: left;
+	}
+	.col-md-12 .section-div {
+		 width: 97%;
+	}
+	h2 {
+		margin-bottom: 20px;
+	}
+	#sd3 .section-header{
+		width:17.5%;	
+	}
+}
+
+/********** Mobile view **********/
+@media (max-width: 768px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+  h2 {
+  	margin-bottom: 20px;
+  }
+  .outerDiv {
+	margin-left: 25px;
+	}
+}
