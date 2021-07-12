@@ -14,6 +14,9 @@ h2 {
 	margin-bottom: 40px;
 }
 
+section{
+	width: 100%;
+}
 .outerDiv {
 	margin: 15px;
 }
@@ -46,10 +49,6 @@ h2 {
 	padding: 40px 15px 20px 15px;
 }
 
-/*#sd2 .section-content {
-	padding: 40px 35px 0px 15px;
-}
-*/
 #sh1 {
     background-color: #67605B;
     color: #E5DBBE;
@@ -105,5 +104,5 @@ h2 {
   }
   .outerDiv {
 	margin-left: 25px;
-	}
+  }
 }
